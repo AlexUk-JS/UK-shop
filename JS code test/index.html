@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script type="text/javascript" src="script.js" defer></script>
+ -->
+</head>
+
+<header class="header">
+    <menu class="header__menu">
+        <p>Заголовок меню</p>
+        <a href="#" class="drop__link">Dresses</a>
+        <a href="#" class="drop__link">Dresses</a>
+        <a href="#" class="drop__link">Dresses</a>
+        <p>Конец заголовка</p>
+
+    </menu>
+</header>
+
+<body class="body">
+    <div>
+        <div><button id="buttonTest1">Test1</button> </div>
+    </div>
+    <div>
+        <p>Text1</p>
+        <p id="text2id">Text2</p>
+    </div>
+    <div>
+        <p class="myClass1">MyClass1 div1</p>
+    </div>
+    <div>
+        <p class="myClass1">MyClass1 div2</p>
+    </div>
+    <div>
+        <p class="myClass1">MyClass1 div3</p>
+    </div>
+    <div>
+        <textarea name="textarea" id="textArea" cols="30" rows="10"></textarea>
+        <button id="button2">Test</button>
+    </div>
+
+</body>
+<footer class="footer">
+
+</footer>
+<script>
+    console.log('test');
+    let testObj = {
+        color: 'red',
+        speed: 200,
+        testFunc:function(){
+            console.log('test function');
+            this.color = 'green';
+        }
+    }
+    console.log(testObj);
+    
+    testObj.testFunc();
+    console.log(testObj.color);
+
+    /*
+    const​ menuItem = {
+        ​
+        color​: ​ 'blue'​,
+        ​name​: ​ 'Bar'​,
+        ​makeRed​: ​ function​ () {
+            ​
+            this​.color = ​'red'​;
+        }
+    }
+
+    function​​ MenuItem​(color, name) {
+        ​
+        this​.color = color, ​
+            this​.name = name,
+            this.​makeRed​ = ​ function​ () {
+                ​
+                this​.color = ​'red'​;
+            }
+    }
+    const​ item1 = ​new​ MenuItem(​'black'​, ​'Foo'​);
+    const​ item2 = ​new​ MenuItem(​'white'​, ​'Bar'​);
+    console​.log(item1.name);​ // Foo console​.log(item2.name);
+    console​.log(item2.name);​ // Bar
+    */
+</script>
+
+
+</html>
