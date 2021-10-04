@@ -1,5 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   body {
     background-color: red;
   }

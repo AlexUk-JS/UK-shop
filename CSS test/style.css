@@ -1,0 +1,15 @@
+body {
+    background-color: grey;
+}
+
+.div__class__1 {
+    color: yellow;
+}
+
+.div__class__1 .div__class__2 {
+    color: red;
+}
+
+.div__class__1 .div__class__2 .div__class__3 p + a {
+    color: green;
+}
